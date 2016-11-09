@@ -1,0 +1,50 @@
+.section__two{
+	position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+	text-align: center;
+}
+
+.best__list{
+	text-align: justify;
+	margin-top: 80px;
+	&:after{
+		content: "";
+		width: 100%;
+		height: 0;
+		display: inline-block;
+	}
+}
+.best__item{
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+.best__img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    display: inline-block;
+}
+.best__icon-pic {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.best__title{
+	font: 24px/28px "Lifehack-Medium";
+	color: #2f3234;
+	margin-bottom: 15px;
+}
+.best__desc{
+	font: 14px/24px "Ubuntu-Light";
+	color: #2f3234;
+}

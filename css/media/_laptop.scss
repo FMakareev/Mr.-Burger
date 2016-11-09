@@ -1,0 +1,52 @@
+    @media screen and (max-width: 992px) {
+        .header {
+            margin-bottom: 16px;
+        }
+        .container {
+            width: 750px;
+            padding: 0 11px;
+            box-sizing: border-box;
+        }
+        .sidebar,
+        .main {
+            float: none;
+        }
+        .main {
+            width: 100%;
+        }
+        .sidebar {
+            width: 100%;
+            margin-bottom: 30px
+        }
+        .menu__item {
+            display: inline-block;
+            margin-right: 6px;
+        }
+        .menu__link {
+            border: none;
+        }
+        .menu__item-active {
+            border: none;
+        }
+        .about__left {
+            width: 32%;
+        }
+        .about__img-item {
+            max-width: 165px;
+        }
+        .about__right {
+            width: 65%;
+        }
+        .content-title {
+            margin-bottom: 18px;
+        }
+        .career__right {
+            width: 60%;
+        }
+        .career__block {
+            width: 330px;
+        }
+        .career__year:after {
+            right: -24px;
+        }
+    }

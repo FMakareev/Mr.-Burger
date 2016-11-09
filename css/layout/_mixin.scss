@@ -1,0 +1,36 @@
+// @extend %clearfix;
+%clearfix {
+  
+  &:before, &:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+}
+
+@mixin fonts( $famely, $style, $size: $font_size-body){
+    @if ($famely == fira){
+        @if ($style == light){
+            font-size: $size;
+           font-family: "Fira Sans-Light"; 
+        } @else if($style == medium){
+            font-size: $size;
+            font-family: "Fira Sans-Medium"; 
+        } @else if($style == regular){
+            font-size: $size;
+            font-family: "Fira Sans-Regular";
+            
+        } @else if($style == bold){
+            font-size: $size;
+            font-family: "Fira Sans-Bold";
+        }
+        
+    } @else if ($famely == open){
+        
+        @if ($style == bold){
+            font-size: $size;
+            font-family: "Open Sans-bold";
+        }
+    }
+}

@@ -1,0 +1,138 @@
+.reviews__list {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	
+}
+.reviews__item {
+	width: 25%;
+	height: 50%;
+	display: block;
+	float: left;
+}
+.reviews {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.reviews:hover .reviews__hover {
+	top: 0%;
+	left: 0%;
+	opacity: 1;
+	transform: translate(0%, 0%) scale(1);
+}
+.reviews__photo {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.reviews__hover {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0.9);
+	transition: .2s;
+	width: 100%;
+	height: 100%;
+	background: rgba(20, 20, 20, 0.7);
+	transition: .3s;
+	padding: 15% 20% 0 10%;
+	box-sizing: border-box;
+	opacity: 0;
+	cursor: pointer;
+}
+.review__title {
+	color: #fff;
+	font: 18px "Gagalin-Regular";
+	margin-bottom: 25px;
+}
+.review__text {
+	color: #ffffff;
+	font: 14px/24px "Ubuntu-Light";
+	margin-bottom: 30px;
+}
+.review__button {
+	border-radius: 5px;
+	background-color: #2f3234;
+	padding: 9px 19px;
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Ubuntu-Medium';
+	font-size: 12px;
+	-webkit-transition: .3s;
+	transition: .3s;
+	&:hover {
+		background-color: #1f2122;
+	}
+}
+
+.popup{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;	
+	background-color: rgba(18%, 20%, 20%, 0.92);	
+    text-align: center;
+	left: -1000%;
+	opacity: 0;
+	transition: opacity .3s;
+	&:before{
+		content: "";
+		height: 100%;
+		width: 0;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	
+}
+
+
+.popup__content{
+    width: 460px;
+    min-height: 255px;
+	display: inline-block;
+    margin: auto;
+    background: #fff;
+    border-radius: 4px;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	text-align: left;
+	vertical-align: middle;
+	position: relative;
+}
+.popup__title{
+	font: 14px/18px "Gagalin-Regular";
+	color: #2f3234;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.popup__close{
+	display: block;
+	border: none;	
+	width: 15px;
+	height: 15px;
+	background-image: url("/image/icons/close.svg");
+	background-color: transparent;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	cursor: pointer;
+}
+
+.popup__text{
+	font: 14px/24px "Ubuntu-Light";
+	color: #2f3234;
+	display: inline-block;
+}
+
+
+
+
+
+

@@ -1,0 +1,97 @@
+@media screen and (max-width:768px) {
+    .container {
+        width: 480px;
+        padding: 0;
+    }
+    .header__left {
+        width: 75%;
+    }
+    .header__right {
+        width: 25%;
+    }
+    .footer__left {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+    .contacts__text {
+        display: none;
+    }
+    .contacts__text-mobile {
+        display: inline-block;
+    }
+    .contacts__link {
+        background: none;
+    }
+    .contacts__list-container {
+       top: 25px;
+        
+    }
+    .contacts:hover .contacts__list-container {
+        opacity: 1;
+        left: -150px;
+    }
+    .contacts__list:before {
+        margin-left: 60px;
+    }
+    .contacts__list:after {
+        margin-left: 61px;
+    }
+    .footer__right {
+        width: 100%;
+        float: none;
+    }
+    .social__list {
+        text-align: center;
+    }
+    .about__left {
+        float: none;
+        width: 100%;
+        margin-bottom: 6px;
+    }
+    .about__right {
+        float: none;
+        width: 100%;
+    }
+    .content-title {
+        text-align: center;
+        margin-bottom: 6px;
+    }
+    .about__text {
+        padding: 0 22px;
+    }
+    .about__download {
+        text-align: center;
+    }
+    .career__left,
+    .career__right {
+        float: none;
+        width: 100%;
+    }
+    .career__left {
+        margin: 20px 0;
+    }
+    .career__item {
+        text-align: center;
+    }
+    .career__block {
+        box-sizing: border-box;
+        max-width: 439px;
+        width: 100%;
+    }
+    .career__block::after,
+    .career__block::before,
+    .career__year:after {
+        content: none;
+    }
+    .career__year {
+        display: none;
+    }
+    .career__img {
+        max-width: 230px;
+        margin: 0 auto;
+    }
+    .portfolio__item {
+        margin: 0 8.6px 10px;
+    }
+}

@@ -1,0 +1,46 @@
+// -------------------- Ubuntu-B --------------------
+@font-face {
+	font-family: 'Ubuntu-B';
+	src: local("Ubuntu Bold");
+	src: url('/fonts/Ubuntu/Ubuntu-B.ttf');
+	src: url('/fonts/Ubuntu/UbuntuB.eot');
+	src: url('/fonts/Ubuntu/UbuntuB.eot') format('embedded-opentype'), url('/fonts/Ubuntu/UbuntuB.woff2') format('woff2'), url('/fonts/Ubuntu/UbuntuB.woff') format('woff'), url('/fonts/Ubuntu/UbuntuB.ttf') format('truetype'), url('/fonts/Ubuntu/UbuntuB.svg#UbuntuB') format('svg');
+}
+// -------------------- Ubuntu-Light --------------------
+@font-face {
+	font-family: "Ubuntu-Light";
+	src: url('Ubuntu-Light.eot');
+	src: local('Ubuntu Light'), local('Ubuntu-Light'), url('/fonts/Ubuntu/Ubuntu-Light.eot?#iefix') format('embedded-opentype'), url('/fonts/Ubuntu/Ubuntu-Light.woff2') format('woff2'), url('/fonts/Ubuntu/Ubuntu-Light.woff') format('woff'), url('/fonts/Ubuntu/Ubuntu-Light.ttf') format('truetype'), url('/fonts/Ubuntu/Ubuntu-Light.svg#Ubuntu-Light') format('svg');
+}
+// -------------------- Ubuntu-Medium --------------------
+@font-face {
+	font-family: "Ubuntu-Medium";
+	src: url('Ubuntu-Medium.eot');
+	src: local('Ubuntu Medium'), local('Ubuntu-Medium'), url('/fonts/Ubuntu/Ubuntu-Medium.eot?#iefix') format('embedded-opentype'), url('/fonts/Ubuntu/Ubuntu-Medium.woff2') format('woff2'), url('/fonts/Ubuntu/Ubuntu-Medium.woff') format('woff'), url('/fonts/Ubuntu/Ubuntu-Medium.ttf') format('truetype'), url('/fonts/Ubuntu/Ubuntu-Medium.svg#Ubuntu-Medium') format('svg');
+}
+// -------------------- Ubuntu-Regular --------------------
+@font-face {
+	font-family: "Ubuntu-Regular";
+	src: url('Ubuntu.eot');
+	src: local('Ubuntu'), url('/fonts/Ubuntu/Ubuntu.eot?#iefix') format('embedded-opentype'), url('/fonts/Ubuntu/Ubuntu.woff2') format('woff2'), url('/fonts/Ubuntu/Ubuntu.woff') format('woff'), url('/fonts/Ubuntu/Ubuntu.ttf') format('truetype'), url('/fonts/Ubuntu/Ubuntu.svg#Ubuntu') format('svg');
+}
+// -------------------- Gagalin-Regular --------------------
+@font-face {
+	font-family: "Gagalin-Regular";
+	src: local("Gagalin Regular");
+	src: url('/fonts/Gagalin/Gagalin-Regular.otf');
+	src: url('/fonts/Gagalin/GagalinRegular.eot');
+	src: url('/fonts/Gagalin/GagalinRegular.eot') format('embedded-opentype'), url('/fonts/Gagalin/GagalinRegular.woff2') format('woff2'), url('/fonts/Gagalin/GagalinRegular.woff') format('woff'), url('/fonts/Gagalin/GagalinRegular.ttf') format('truetype'), url('/fonts/Gagalin/GagalinRegular.svg#GagalinRegular') format('svg');
+}
+// -------------------- Lifehack-Medium --------------------
+@font-face {
+	font-family: "Lifehack-Medium";
+	src: local("Lifehack Medium");
+	src: url('/fonts/Lifehack/Lifehack Medium.otf');
+	src: url('/fonts/Lifehack/LifehackMedium.eot');
+	src: url('/fonts/Lifehack/LifehackMedium.eot') format('embedded-opentype'), 
+		url('/fonts/Lifehack/LifehackMedium.woff2') format('woff2'),
+		url('/fonts/Lifehack/LifehackMedium.woff') format('woff'), 
+		url('/fonts/Lifehack/LifehackMedium.ttf') format('truetype'), 
+		url('/fonts/Lifehack/LifehackMedium.svg#LifehackMedium') format('svg');
+}

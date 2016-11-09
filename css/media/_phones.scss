@@ -1,0 +1,41 @@
+@media screen and (max-width:480px) {
+    .container {
+        width: 95%;
+        padding: 0;
+    }
+    .menu__item {
+        margin-right: 0;
+    }
+    .user__name {
+        max-width: 60%;
+    }
+    .about__text {
+        height: auto;
+        overflow: visible;
+    }
+    .fa-user-secret,
+    .fa-rocket,
+    .fa-briefcase {
+        display: none;
+    }
+    .portfolio__item {
+        margin: 0;
+    }
+    .portfolio__list {
+        text-align: center;
+    }
+    .contacts__link {
+        width: 30px;
+    }
+    .header__left {
+        width: 80%;
+    }
+    .header__right {
+        width: 20%;
+    }
+    .menu__link,
+    .menu__item-active {
+        font-size: 16px;
+        padding: 0;
+    }
+}

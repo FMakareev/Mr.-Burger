@@ -1,0 +1,206 @@
+.form__left {
+	width: 50%;
+	float: left;
+}
+.section__seven{	
+	@extend %clearfix;
+}
+.section__seven .container{
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+}
+.section__seven .section__title {
+	text-align: center;
+	margin-bottom: 70px
+}
+.form__right {
+	width: 50%;
+	float: left;
+}
+.order__form {
+	@extend %clearfix;
+}
+.order__form-col {
+	width: 460px;
+	float: left;
+	&:nth-child(2) {
+		margin-left: 20px;
+	}
+	&:nth-child(2) .order__form-row:first-child{
+	margin-bottom: 4px;
+	}
+	&:nth-child(2) .order__form-row:nth-child(2){
+	margin-bottom: 20px;
+	}
+	&:nth-child(2) .order__form-row:nth-child(3){
+	margin-bottom: 20px;
+	}
+}
+.order__form-row {
+	width: 100%;
+	margin-bottom: 7px;
+	@extend %clearfix;
+	&.order__form-row_dubllcol {
+		.order__form-block {
+			display: block;
+			float: left;
+			width: 220px;
+			&:nth-child(2) {
+				margin-left: 20px;
+			}
+		}
+	}
+	&.order__form-row_quatrocol {
+		.order__form-block {
+			display: block;
+			float: left;
+			width: 100px;
+			margin-right: 20px;
+			&:last-child {
+				margin-right: 0px;
+			}
+		}
+	}
+}
+.order__form-label {
+	font: 14px/24px "Ubuntu-Light";
+	color: #fff;
+	display: block;
+	margin-bottom: 10px;
+}
+.order__form-input {
+	width: 100%;
+	height: 35px;
+	box-sizing: border-box;
+	border: 1px solid #d1cfcb;
+	border-radius: 5px;
+	padding: 5px 10px;
+	font-size: 14px;
+	&:focus {
+    border: 2px solid #f9b43b; /* Рамка при получении фокуса */
+		outline: none;
+   }
+}
+.order__form-button {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+	border: 0;
+	background: #e35028;
+	font-size: 13px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	color: #ffffff;
+	padding: 10px 15px;
+	cursor: pointer;
+	&.order__form-button_reset {
+		padding-left: 0;
+		padding-right: 0;
+		text-transform: none;
+		background: transparent;
+	}
+}
+.order__radio-title {
+	font: 14px/24px "Ubuntu-Light";
+	color: #fff;
+}
+.order__form-input_textarea {
+		height: 110px;
+	}
+
+.order__radio-elem {
+    position: absolute;
+    top: 0;
+    left: -9999px;
+}
+.order__radio {
+    position: relative;
+    white-space: nowrap;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.order__radio-fake {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.order__radio-fake:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    background: #e35028;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: width .3s, height .3s;
+    transition: width .3s, height .3s;
+}
+.order__radio-elem:checked + .order__radio-fake:after {
+    width: 8px;
+    height: 8px;
+}
+.order__radio.order__radio_checkbox .order__radio-fake{
+	border-radius: 0;
+}
+.order__radio_checkbox .order__radio-elem:checked + .order__radio-fake:after {
+    background: url(/image/icons/check.svg) 50% no-repeat transparent;
+    background-size: contain;
+    width: 11px;
+    height: 9px;
+}
+.order__radio_checkbox .order__radio-elem + .order__radio-fake:after {
+    background: transparent;
+}
+.modal__form {
+	display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -10000px;
+    background-color: rgba(46, 51, 51, 0.92);
+    text-align: center;   
+    opacity: 0;	
+	transition: display .3s;
+	transition: opacity .3s;
+	&:before {
+    content: "";
+    height: 100%;
+    width: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+}
+
+.modal__form-container {
+	width: 196px;
+	height: 106px;
+	display: inline-block;
+	background-color: #fff;
+	border-radius: 5px;
+	box-sizing: border-box;
+	vertical-align: middle;
+	padding: 15px 20px;
+	text-align: center;	
+}
+.modal__form-title {
+	font: 14px/24px "Ubuntu-Light";
+	color: #2f3234;
+	margin-bottom: 10px;
+	white-space: nowrap;
+}
+
